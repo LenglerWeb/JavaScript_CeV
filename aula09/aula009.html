@@ -19,12 +19,13 @@
         }
         </style>
     <h1>########################</h1>
-    <h1>Iniciando estudos com DOM</h1>
+    <h1> DOM - Document Object Model</h1>
+    <h1>#### em JAVASCRIPT #####</h1>
     <h1>########################</h1>
 
         <p>Aqui vai o resultado</p>
-        <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
-        <div>Clique em mim</div>
+        <p class="cor">Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+        <div id="msg">Clique em mim</div>
 
         
     <script>
@@ -33,7 +34,11 @@
         window.document.write('Está escrito assim: '+ p1.innerText)
         p1.style.color = "yellow";
         corpo.style.background = 'black'
-    
+
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'green'
+        var c = window.document.querySelector('p.cor')
+        c.style.background = 'blue'
     </script>
 </body>
 </html>
