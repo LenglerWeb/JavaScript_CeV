@@ -26,7 +26,12 @@
         <p>Aqui vai o resultado</p>
         <p class="cor">Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
         <div id="msg">Clique em mim</div>
-
+        
+        <p id="demo"></p>
+        <p class="exemplo"></p>
+        <p class="exemplo"></p>
+        <p class="exemplo"></p>
+        <div class="exemplo"></div>
         
     <script>
         var corpo = document.body
@@ -39,6 +44,15 @@
         d.style.color = 'green'
         var c = window.document.querySelector('p.cor')
         c.style.background = 'blue'
+
+        document.getElementById('demo').innerHTML = 'Texto do meu parágrafo'
+        console.log(document.getElementsByTagName('p'))
+        var x = document.getElementsByClassName('exemplo')
+
+        console.log(document.baseURI)
+        console.log(document.scripts)     
+    
+    
     </script>
 </body>
 </html>

@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
 body {
     background: rgb(87, 146, 194);
-    font: normal 15px Arial;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -12,9 +15,10 @@ section {
     background: white;
     border-radius: 10px;
     padding: 10px;
-    width: 15%;
+    width: 18%;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+    text-align: center;
 }
 
 footer {
